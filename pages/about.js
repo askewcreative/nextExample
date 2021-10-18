@@ -9,7 +9,7 @@ export default function About() {
         This example adds a property <code>getLayout</code> to your page,
         allowing you to return a React component for the layout. This allows you
         to define the layout on a per-page basis. Since we're returning a
-        function, we can have complex nested layouts if desired.
+        function, we can have complex nested layouts if desired. Hi there
       </p>
       <p>
         When navigating between pages, we want to persist page state (input
