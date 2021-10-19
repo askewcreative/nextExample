@@ -1,15 +1,21 @@
 import Layout from '../components/layout'
 import Sidebar from '../components/sidebar'
 
-export default function Gallery() {
+function Gallery() {
 
     return (
         <section>
-            Hello 
+            <div className = "uno">
+              hi there
+            </div>
+              Hello + Example
         </section>
+        
+        
       )
-    }
-    
+}
+
+console.log("hi there");
 
 Gallery.getLayout = function getLayout(page) {
     return (
@@ -19,3 +25,5 @@ Gallery.getLayout = function getLayout(page) {
       </Layout>
     )
   }
+
+  export default Gallery
